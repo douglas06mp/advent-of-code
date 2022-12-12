@@ -1,7 +1,7 @@
 package main
 
 import (
-	"aoc2022/day5"
+	"aoc2022/day6"
 	"fmt"
 )
 
@@ -23,9 +23,13 @@ func main() {
 	// s := day4.Second()
 
 	// day5
-	f := day5.First()
+	// f := day5.First()
+	// s := day5.Second()
+
+	// day6
+	f := day6.First()
 	fmt.Printf("%v\n", f)
-	s := day5.Second()
+	s := day6.Second()
 	fmt.Printf("%v\n", s)
 
 }
